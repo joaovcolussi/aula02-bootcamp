@@ -54,3 +54,9 @@
 #   return (celsius * 9/5) + 32
 # inserirTemp = int(input("Digite a temperatura em fahrenheit :"))
 # print(f"A temperatura em celsius0 é {celciusParaFarenheit(inserirTemp)}")
+
+# Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+# import math
+# raio = float(input("Digite o valor do raio: "))
+# area = math.pi * raio ** 2
+# print(f"A area do circulo com raio {raio} é {area:.2f}")
