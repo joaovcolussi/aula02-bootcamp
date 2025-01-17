@@ -60,3 +60,61 @@
 # raio = float(input("Digite o valor do raio: "))
 # area = math.pi * raio ** 2
 # print(f"A area do circulo com raio {raio} é {area:.2f}")
+
+# Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+# EscrevaString = input("Escreva algo que gosta\n")
+# ConverterString = EscrevaString.upper()
+# print(ConverterString)
+
+# Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+# EscrevaNome = input("Digite seu nome: \n")
+# ConverterNome = EscrevaNome.lower()
+# print(ConverterNome)
+
+# Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+# escrevaFrase = input("Digite uma frase: \n")
+# converterFrase =  escrevaFrase.strip(" ")
+# print(converterFrase)
+
+# Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+# escrevaAno = input("Digite o ano em formato dd/mm/aaaa \n")
+# converterAno = escrevaAno.split("/")
+# print(converterAno)
+
+# Escreva um programa que concatene duas strings fornecidas pelo usuário.
+# escrevaString1= input("Digite algo: \n")
+# escrevaString2 = input("Digite algo para complementar \n")
+# juntarStrings = escrevaString1 +" " +  escrevaString2
+# print(juntarStrings)
+
+
+# Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+# Valor1 = True
+# Valor2 = False
+# resultado = Valor1 and Valor2
+# print(f"Resultado é {resultado}")
+
+
+# Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+# Valor1 = True
+# Valor2 = False
+# resultado = Valor1 or Valor2
+# print(f"Resultado {resultado}")
+
+
+# Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+# valorVerdadeiro = True
+# resultado_not = not valorVerdadeiro
+# print(resultado_not)
+
+# Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# Valor1 = 1
+# Valor2 = 2
+# resultado_igual = (Valor1 == Valor2)
+# print(resultado_igual)
+
+# Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+# valor1= 2
+# valor2= 3
+# resultadoDiferente = (valor1 != valor2 )
+# print(resultadoDiferente)
