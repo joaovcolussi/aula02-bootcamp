@@ -118,3 +118,13 @@
 # valor2= 3
 # resultadoDiferente = (valor1 != valor2 )
 # print(resultadoDiferente)
+
+
+#Calculo do KPI
+CONSTANTE_BONUS = 1000
+nomeUsuario = input("Digite seu nome: ")
+salarioUsuario = float(input("Digite seu salário: "))
+bonusUsuario = float(input("Digite o valor do bonus: "))
+valorBonus = CONSTANTE_BONUS + salarioUsuario * bonusUsuario
+print(f"O usuário {nomeUsuario} possui o bonus de {valorBonus}")
+
