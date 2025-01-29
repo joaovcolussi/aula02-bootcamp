@@ -33,8 +33,8 @@
 # if log['level'] == 'ERROR':
 #   print(log['message'])
 
-idade = 25
-email = "usuario@exemplo.com"
+# idade = 25
+# email = "usuario@exemplo.com"
 
 # if not 18 <= idade <=65:
 #   print("Idade fora do intervalo permitido")
@@ -42,3 +42,11 @@ email = "usuario@exemplo.com"
 #   print("Email Inválido")
 # else:
 #   print("Dados de usuários válidos")
+
+
+transacao = {'valor': 12000, 'hora' : 20}
+
+if transacao['valor'] > 10000 or transacao['hora'] < 9 or transacao['hora'] > 18:
+  print("Transação suspeita")
+else:
+  print("Transação normal")
